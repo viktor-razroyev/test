@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if IE]><html class="ie"><![endif]-->
+<!--[if gt IE 9]><!--><html><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Главная</title>
+        <meta name="description" content="">
+        <!--<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;'>-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class='wrapper'>
+            <div class='container'>
+                <div class='container_top'>
+                    <a href="#" class="container_top_link-open">Церемония открытия</a>
+                    <a href="#" class="container_top_link-close">Церемония закрытия</a>
+                </div>
+                <div class='container_center'>
+                    <div class='container_center_content'>
+                        <h1 class='container_center_content_header'>популярность видов спорта</h1>
+                        <canvas id="container_center_content_arc"></canvas>
+                        <div class="container_center_content_item r100">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Хоккей</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/hokkey.jpg">
+                                <span>368048</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r75">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Фигурное катание</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/fig-kat.jpg">
+                                <span>234064</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r63">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Биатлон</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/biatlon.jpg">
+                                <span>169072</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r50">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Конькобежный спорт</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/ksport.jpg">
+                                <span>92700</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r49">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Сноуборд</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/snbord.jpg">
+                                <span>92610</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r48">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Фристайл</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/fstail.jpg">
+                                <span>84814</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r43">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Кёрлинг</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/kerling.jpg">
+                                <span>60574</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r41">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Бобслей</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/bobsley.jpg">
+                                <span>50692</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r40">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Горнолыжный спорт</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/gorsport.jpg">
+                                <span>41152</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r39">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Шорт-трек</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/shtrek.jpg">
+                                <span>37772</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r38">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Лыжные<br/>гонки</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/lgonki.jpg">
+                                <span>34720</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r37">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Скелетон</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/skeleton.jpg">
+                                <span>27284</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r36">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Прыжки с трамплина</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/strampl.jpg">
+                                <span>19310</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r35">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Санный<br/>спорт</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/sanki.jpg">
+                                <span>12738</span>
+                            </div>
+                        </div>
+                        <div class="container_center_content_item r34">
+                            <div class="container_center_content_item_img"></div>
+                            <span>Лыжное<br/>двоеборье</span>
+                            <div class="container_center_content_item_inner">
+                                <img src="images/ldvb.jpg">
+                                <span>12698</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='container_bottom'>
+                    <div class='container_bottom_divider'></div>
+                    <a href="#" class="container_bottom_btn">Рассказать друзьям</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
