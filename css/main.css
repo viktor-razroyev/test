@@ -69,6 +69,9 @@ p {
     height: 442px;
     background-color: #c0d7e7;
 }
+.container_center_content_helper {
+    display: none;
+}
 #container_center_content_arc {
     z-index: 1;
     position: absolute;
