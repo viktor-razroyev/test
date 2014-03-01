@@ -160,6 +160,7 @@ p {
     position: absolute;
     background-color: #fff;
     overflow: hidden;
+    opacity: 0;
 }
 .container_center_content_item_img {
     position: absolute;
